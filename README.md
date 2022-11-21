@@ -1,0 +1,16 @@
+# ResponsiveWebDesignFCC
+- CAT PHOTO APP
+  - learnt HTML
+  - only used HTML, no CSS
+  - learnt about headings (h1, h2, etc.), unordered list, \nfigure & figcaption, ordered list, section, fieldset, legend, input, button, form, main & footer (both are descendants of body)
+  - title in head will contain name of tab
+- CAFE MENU
+  - learnt basic CSS
+- COLORED MARKERS
+  - learnt CSS colors
+- REGISTRATION FORM
+  - learnt HTML forms
+- SURVEY FORM (CERTIFICATION PROJECT)
+  -
+- ROTHKO PAINTING
+  - learnt CSS box model
