@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Venom Host Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1 id="title" class="text-center">Venom is looking for a new host</h1>
+        <p id="description" class="description text-center">
+          Fill in your details and Venom will be in touch with you shortly.
+        </p>
+      </header>
+      <form id="survey-form">
+        <div class="form-group">
+          <label id="name-label" for="name">Name</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            class="form-control"
+            placeholder="Enter your name"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label id="email-label" for="email">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            class="form-control"
+            placeholder="Enter your Email"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label id="number-label" for="number"
+            >Age<span class="clue">(optional)</span></label
+          >
+          <input
+            type="number"
+            name="age"
+            id="number"
+            min="10"
+            max="99"
+            class="form-control"
+            placeholder="Age"
+          />
+        </div>
+        <div class="form-group">
+          <p>Which option best describes your current role?</p>
+          <select id="dropdown" name="role" class="form-control" required>
+            <option disabled selected value>Select current role</option>
+            <option value="1">Student</option>
+            <option value="2">Job-seeker</option>
+            <option value="3">Professional</option>
+            <option value="4">Retiree</option>
+            <option value="5">Patient/Corpse</option>
+            <option value="6">Other</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <p>Are you strong enough to host Venom?</p>
+          <label>
+            <input
+              name="user-recommend"
+              value="yes"
+              type="radio"
+              class="input-radio"
+              checked
+            />Yes</label
+          >
+          <label>
+            <input
+              name="user-recommend"
+              value="no"
+              type="radio"
+              class="input-radio"
+            />No</label
+          >
+
+          <label
+            ><input
+              name="user-recommend"
+              value="not-sure"
+              type="radio"
+              class="input-radio"
+            />Maybe</label
+          >
+        </div>
+
+        <div class="form-group">
+          <p>What is the main reason you want to host Venom?</p>
+          <select id="most-like" name="mostLike" class="form-control" required>
+            <option disabled selected value>Select an option</option>
+            <option value="1">I need to heal my body</option>
+            <option value="2">I want to protect myself from danger</option>
+            <option value="3">I want to protect others</option>
+            <option value="4">I need purpose</option>
+            <option value="5">I JUST WANT TO, STOP ASKING!</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <p>
+            What would you eat if you host venom?
+            <span class="clue">(Check all that apply)</span>
+          </p>
+
+          <label
+            ><input
+              name="prefer"
+              value="live-animals"
+              type="checkbox"
+              class="input-checkbox"
+            />Live animals</label
+          >
+          <label>
+            <input
+              name="prefer"
+              value="dead-animals"
+              type="checkbox"
+              class="input-checkbox"
+            />Dead animals</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="live-humans"
+              type="checkbox"
+              class="input-checkbox"
+            />Live humans</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="dead-humans"
+              type="checkbox"
+              class="input-checkbox"
+            />Dead humans (ew)</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="vegetables"
+              type="checkbox"
+              class="input-checkbox"
+            />Vegetables (Venom loves potato)</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="chocolate"
+              type="checkbox"
+              class="input-checkbox"
+            />Chocolate</label
+          >
+          
+          <label
+            ><input
+              name="prefer"
+              value="anything"
+              type="checkbox"
+              class="input-checkbox"
+            />Anything</label
+          >
+        </div>
+
+        <div class="form-group">
+          <p>Any messages for Venom?</p>
+          <textarea
+            id="comments"
+            class="input-textarea"
+            name="comment"
+            placeholder="Stuff that will help Venom consider you..."
+          ></textarea>
+        </div>
+
+        <div class="form-group">
+          <button type="submit" id="submit" class="submit-button">
+            Submit
+          </button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
