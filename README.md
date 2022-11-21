@@ -2,15 +2,33 @@
 - CAT PHOTO APP
   - learnt HTML
   - only used HTML, no CSS
-  - learnt about headings (h1, h2, etc.), unordered list, \nfigure & figcaption, ordered list, section, fieldset, legend, input, button, form, main & footer (both are descendants of body)
+  - learnt about headings (h1, h2, etc.), unordered list, figure & figcaption, ordered list, section, fieldset, legend, input, button, form, main & footer (both are descendants of body)
   - title in head will contain name of tab
 - CAFE MENU
   - learnt basic CSS
+  - first exercise to use css, learnt to use link element in head
+  - learnt div and attributing class
+  - used url() for background-image
+  - font-family is used to change font
+  - .class{} and element{}
+  - commas can be used to attribute style to multiple things at once
+  - use to /*comment*/
+  - can change style of a hyperlink with a{}, a:visited{}, a:hover{}, a:active{}
 - COLORED MARKERS
   - learnt CSS colors
+  - played around with class attribute a lot
+  - can use shorthand margin: vertical-value horizontal-value;
+  - played with linear-gradient: angle is 180deg by default, can have as many colours as you want, and it will be evenly distributed. separate with commas. put percentage after the colour of how much you want it to cover;
+  - box-shadow: top right bottem left colour;
+  - color can use rgb/rgba(x,x,x,[alpha in decimal]), hsl/hsla(hue[degree around colour wheel],saturation[%],lightness[%],[alpha in decimal]), #------/#-------
+  - display: inline-block; makes block element act like in-line element
 - REGISTRATION FORM
   - learnt HTML forms
 - SURVEY FORM (CERTIFICATION PROJECT)
-  -
+  - venom inspired because I watched the movie before working on the project
+  - mostly made use of what I've learnt from the direct previous exercise, but really it was a mix of everything I've learnt so far
+  - went a little further by using fonts from google
 - ROTHKO PAINTING
   - learnt CSS box model
+  - learnt radius
+  - transform: rotate(angle in deg); negative value gives anti-clockwise, positive value gives clockwise
