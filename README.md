@@ -1,4 +1,5 @@
 # ResponsiveWebDesignFCC
+Link: https://jaztynn.github.io/ResponsiveWebDesignFCC/ 
 - CAT PHOTO APP
   - learnt HTML
   - only used HTML, no CSS
@@ -16,7 +17,7 @@
   - can change style of a hyperlink with a{}, a:visited{}, a:hover{}, a:active{}
 - COLORED MARKERS
   - learnt CSS colors
-  - played around with class attribute a lot
+  - played around with class attribute a lot in div
   - can use shorthand margin: vertical-value horizontal-value;
   - played with linear-gradient: angle is 180deg by default, can have as many colours as you want, and it will be evenly distributed. separate with commas. put percentage after the colour of how much you want it to cover;
   - box-shadow: top right bottem left colour;
@@ -24,11 +25,26 @@
   - display: inline-block; makes block element act like in-line element
 - REGISTRATION FORM
   - learnt HTML forms
+  - fieldset, label with for attribute, for in label must match id attribute in input
+  - input type default is text, can be email, number, radio, checkbox, image
+  - required attribute makes field mandatory
+  - select element is the dropdown input, must include id and name (same value usually)
+  - option element descendant of select
+  - label encloses input
+  - textarea element size can be specified by rows and columns
+  - input can have placeholder
+  - submit button must have type="submit" and value="submit"
+  - radio type input must have same name values if only one option is allowable
+  - file can be uploaded as input if input type specified as file
+  - form element can have method attribute. value for method was post and action was link
+  - can use em as unit (relative size to current font)
 - SURVEY FORM (CERTIFICATION PROJECT)
   - venom inspired because I watched the movie before working on the project
   - mostly made use of what I've learnt from the direct previous exercise, but really it was a mix of everything I've learnt so far
   - went a little further by using fonts from google
 - ROTHKO PAINTING
   - learnt CSS box model
-  - learnt radius
+  - learnt filter: blur()
+  - learnt border-radius can also take different values, starting from top-left going clockwise
   - transform: rotate(angle in deg); negative value gives anti-clockwise, positive value gives clockwise
+  - reinforced that elements, e.g. width can take on values that are auto, minimum, maximum, percentage, etc.
