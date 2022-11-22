@@ -48,3 +48,22 @@ Link: https://jaztynn.github.io/ResponsiveWebDesignFCC/
   - learnt border-radius can also take different values, starting from top-left going clockwise
   - transform: rotate(angle in deg); negative value gives anti-clockwise, positive value gives clockwise
   - reinforced that elements, e.g. width can take on values that are auto, minimum, maximum, percentage, etc.
+- PHOTO GALLERY
+  - learnt CSS flexbox
+  - used header element
+  - used * selector
+  - used box-sizing: border-box;
+  - no margin, margin value set to 0
+  - font-family value no need ""
+  - ::after pseudo-element creates an element that is the last child (no space)
+- NUTRITION LABEL
+  - learnt CSS typography
+  - used 2 links, one to styles.css and one to __ to import the Open Sans font
+  - Open Sans font needed to typed in as "Open Sans" while fallback font sans-serif is good on its own
+  - two fonts were separated by comma
+  - * selector selects all elements
+  - reminder that each element/.class{} are called rules
+  - font-weight is how bold the font is
+  - rem unit stands for root em and is relative to the font size of the html element
+  - learnt about span element and how to give it float
+  - :not() pseudo selector can be used to select all elements that do not match the given CSS rule
