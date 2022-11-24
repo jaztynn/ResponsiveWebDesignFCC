@@ -38,7 +38,7 @@ Link: https://jaztynn.github.io/ResponsiveWebDesignFCC/
   - file can be uploaded as input if input type specified as file
   - form element can have method attribute. value for method was post and action was link
   - can use em as unit (relative size to current font)
-- SURVEY FORM (CERTIFICATION PROJECT)
+- _**SURVEY FORM (CERTIFICATION PROJECT)**_
   - venom inspired because I watched the movie before working on the project
   - mostly made use of what I've learnt from the direct previous exercise, but really it was a mix of everything I've learnt so far
   - went a little further by using fonts from google
@@ -70,14 +70,14 @@ Link: https://jaztynn.github.io/ResponsiveWebDesignFCC/
 
 ## Upcoming uploads:
 - QUIZ
-- TRIBUTE PAGE (CERTIFICATION PROJECT)
+- _**TRIBUTE PAGE (CERTIFICATION PROJECT)**_
 - BALANCE SHEET
 - PICASSO PAINTING
 - PIANO
-- TECHNICAL DOCUMENTATION PAGE (CERTIFCATION PROJECT)
+- _**TECHNICAL DOCUMENTATION PAGE (CERTIFCATION PROJECT)**_
 - CITY SKYLINE
 - MAGAZINE
-- PRODUCT LANDING PAGE (CERTIFICATION PROJECT)
+- _**PRODUCT LANDING PAGE (CERTIFICATION PROJECT)**_
 - FERRIS WHEEL
 - PENGUIN
-- PERSONAL PORTFOLIO WEBPAGE (CERTIFICATION PROJECT)
+- _**PERSONAL PORTFOLIO WEBPAGE (CERTIFICATION PROJECT)**_
