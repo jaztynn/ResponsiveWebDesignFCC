@@ -1,4 +1,4 @@
-# ResponsiveWebDesignFCC
+# Responsive Web Design Project Documentation
 Link: https://jaztynn.github.io/ResponsiveWebDesignFCC/ 
 - CAT PHOTO APP
   - learnt HTML
@@ -67,7 +67,8 @@ Link: https://jaztynn.github.io/ResponsiveWebDesignFCC/
   - rem unit stands for root em and is relative to the font size of the html element
   - learnt about span element and how to give it float
   - :not() pseudo selector can be used to select all elements that do not match the given CSS rule
-#Upcoming uploads:
+
+## Upcoming uploads:
 - QUIZ
 - TRIBUTE PAGE (CERTIFICATION PROJECT)
 - BALANCE SHEET
