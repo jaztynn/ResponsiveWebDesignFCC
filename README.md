@@ -71,13 +71,17 @@ Link: https://jaztynn.github.io/ResponsiveWebDesignFCC/
 ## Upcoming uploads:
 - QUIZ
 - _**TRIBUTE PAGE (CERTIFICATION PROJECT)**_
+  - ideas: chadwick boseman tribute
 - BALANCE SHEET
 - PICASSO PAINTING
 - PIANO
 - _**TECHNICAL DOCUMENTATION PAGE (CERTIFCATION PROJECT)**_
+  - ideas: my own subjects, how to study for the diff subjects in uni, important websites?
 - CITY SKYLINE
 - MAGAZINE
 - _**PRODUCT LANDING PAGE (CERTIFICATION PROJECT)**_
+  -ideas: iron man suits
 - FERRIS WHEEL
 - PENGUIN
 - _**PERSONAL PORTFOLIO WEBPAGE (CERTIFICATION PROJECT)**_
+  - ideas: photographs, medium publications, socials, github projects, resume from linkedin
