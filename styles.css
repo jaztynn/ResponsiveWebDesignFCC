@@ -17,3 +17,7 @@ a:hover{
 a:active{
     color: rgb(200, 139, 60);
 }
+.project-list{
+    list-style: none;
+    padding: 0;
+}
