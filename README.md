@@ -67,9 +67,31 @@ Link: https://jaztynn.github.io/ResponsiveWebDesignFCC/
   - rem unit stands for root em and is relative to the font size of the html element
   - learnt about span element and how to give it float
   - :not() pseudo selector can be used to select all elements that do not match the given CSS rule
+- QUIZ
+  - to use id attribute as selector, use #value
+  - to use flexbox for display, wirte display: flex;
+  - element within element in css is element > element{}
+  - used method="post" for the form element, alongside action="<link to submitform to>"
+  - used guide: https://design-style-guide.freecodecamp.org/
+  - used aria-labelledby="" for section. id inside must match value.
+  - element id can be used as href for anchor (a) element, href="#id-value"
+  - made use of placeholders in input
+  - placeholders may actually confuse users because they will think there is already an input, remove placeholder for better accessibility
+  - select element nests option elements (select.option)
+  - used required attribute
+  - used break element </br> for line by line text
+  - on the topic of accessibility, contrast between elements is key
+  - usd inherit element for anchor tags to be of same colour as other text
+  - text-decoration set to none for anchor tag
+  - changed cursor: pointer; in anchor:hover
+  - used aspect-ratio:35/4; for #logo rule
+  - use border:none; instead of border:0;
+  - list-style:none; can be used to remove list default styles
+  - changed scroll-behavior to smooth
+  - @-rule can nest rule
+  - accesskey attribute an be used as shortcut
 
 ## Upcoming uploads:
-- QUIZ
 - _**TRIBUTE PAGE (CERTIFICATION PROJECT)**_
   - ideas: chadwick boseman tribute
 - BALANCE SHEET
