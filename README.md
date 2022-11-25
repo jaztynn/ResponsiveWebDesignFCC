@@ -68,6 +68,7 @@ Link: https://jaztynn.github.io/ResponsiveWebDesignFCC/
   - learnt about span element and how to give it float
   - :not() pseudo selector can be used to select all elements that do not match the given CSS rule
 - QUIZ
+  - learnt accessibility
   - to use id attribute as selector, use #value
   - to use flexbox for display, wirte display: flex;
   - element within element in css is element > element{}
