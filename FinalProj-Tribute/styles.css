@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: 'Garamond', sans-serif;
+  width: 100%;
+}
+
+section h2{
+    max-width: 1100px;
+}
+
+.nav,
+.slider {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+  background-color: #0c0b13;
+  text-align: center;
+  padding: 0 2em;
+}
+
+.nav h1,
+.slider h1 {
+  font-family: 'Garamond', sans-serif;
+  font-size: 5vw;
+  margin: 0;
+  padding-bottom: 0.5rem;
+  letter-spacing: 0.5rem;
+  color: #c4a8ff;
+  transition: all 0.3s ease;
+  z-index: 3;
+  text-shadow: 10px 10px 50px #c4a8ff;
+}
+
+.slider h2 {
+    font-size: 2vw;
+    font-family: "georgia", sans-serif;
+    font-weight: 400;
+    color: #876ed3;
+    z-index: 4;
+    text-shadow: 10px 10px 50px #c4a8ff;
+}
+
+.slider h2.subhead{
+    font-size: 3vw;
+    font-weight: 900;
+    padding-bottom: 10px;
+}
+
+h3.span {
+  font-size: 2vw;
+  letter-spacing: 0.4em;
+  font-family: 'Garamond', sans-serif;
+  font-weight: 900;
+  color: #664EAE;
+  text-shadow: 10px 10px 50px #c4a8ff;
+  z-index: 4;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  letter-spacing: 0.4em;
+  bottom: 0;
+  width: 100%;
+  height: 75px;
+  box-shadow: 10px 10px 50px #c4a8ff;
+  background: linear-gradient(145deg, #1a0554, #0c0b13);
+  z-index: 10;
+  transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.nav-container--top-first {
+  position: fixed;
+  top: 75px;
+  transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.nav-container--top-second {
+  position: fixed;
+  top: 0;
+}
+.nav-tab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  color: #c4a8ff;
+  letter-spacing: 0.1rem;
+  transition: all 0.5s ease;
+  font-size: 2vw;
+}
+
+.nav-tab:hover {
+  color: #0c0b13;
+  background: #664EAE;
+  transition: all 0.5s ease;
+  font-weight: 700;
+}
+
+.nav-tab-slider {
+  position: absolute;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background: #03dac6;
+  transition: left 0.3s ease;
+}
+.background {
+  position: absolute;
+  height: 90vh;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: auto;
+}
+
+img{
+    display:block;
+    max-width: 100%;
+    height: auto;
+    align-items: center;
+}
